@@ -48,6 +48,6 @@ Also, you must create a folder called 'data' and inside there, put the csv file 
 
 ## How use it
 
-    1.  Run the ´Migration_Database.ipynb´ this will create a new database in PostgreSQL, create a new table and migrate the dataset to the new table.
+1.  Run the ´Migration_Database.ipynb´ this will create a new database in PostgreSQL, create a new table and migrate the dataset to the new table.
 
-    2.  With the information in the database, run the ´EDA.ipynb´ this will take the data in the table and bring to the notebook where the information will pass throught the EDA process.
+2.  With the information in the database, run the ´EDA.ipynb´ this will take the data in the table and bring to the notebook where the information will pass throught the EDA process.
