@@ -1,6 +1,6 @@
 # Evaluation of Applicants
 
-This project evaluates the results of an exam taken by candidates who participated in selection processes to work for a company.
+This project shows how to perform extraction, transformation, and loading (ETL) of candidate data using Python and PostgreSQL. It includes tasks such as connecting to a PostgreSQL database, creating tables, importing data from CSV files, and performing basic SQL operations. It also includes exploratory data analysis and visualization to gain a better understanding of the data and the candidate sourcing process.
 
 ## About the datase
 
@@ -29,22 +29,19 @@ The libraries needed to run the project are listed in 'requeriments.txt', you ca
 It's recommended that you enable the digital environment (venv) and run the command to conserve your PC's resources.
 However, you can run the command without using the environment just once and continue using the project without any problems.
 
-Also, if you want to use by your own, you will need to download PostgreSQL and create the file 'config.json' and replace the values there with yours, like this
+## Content
 
-<div style="background-color: #000000;font-size: 14px ;color: #FFFFFF; padding: 10px; border: 1px solid #ccc">
-    <pre>
-        {
-            "POSTGRES_USER": "your_postgres_user",
-            "POSTGRES_PASSWORD": "your_postgres_password",
-            "POSTGRES_HOST": "host",
-            "POSTGRES_PORT": your_port_number,
-            "POSTGRES_DB": "your_database_name",
-            "POSTGRES_TABLE": "the_name_of_the_table"
-        }
-    </pre>
-</div>
+You will find the following files and folders in the repository:
 
-Also, you must create a folder called 'data' and inside there, put the csv file with your dataset, and of course, change the neccesaries values in the notebooks (The path to the dataset, the name of the columns when you create the table, the values for the graphics).
+1. Migration_Database: This Jupyter notebook contains the connection to the PostgreSQL database and the creation of the table that will contain the dataset.
+
+2. EDA: This file contains the EDA process applied to the dataset.
+
+3. requirements: This file contains the information about the libraries that will be used.
+
+4. dashboard: This is the final dashboard.
+
+5. notebooks: This contains the notebooks that will be used to analyze the data set.
 
 ## How use it
 
